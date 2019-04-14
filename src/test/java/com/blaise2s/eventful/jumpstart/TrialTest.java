@@ -1,4 +1,4 @@
-package com.blaise2s.eventful.api;
+package com.blaise2s.eventful.jumpstart;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

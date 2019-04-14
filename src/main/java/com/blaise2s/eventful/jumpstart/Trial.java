@@ -1,4 +1,4 @@
-package com.blaise2s.eventful.api;
+package com.blaise2s.eventful.jumpstart;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonInclude;

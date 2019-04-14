@@ -1,6 +1,4 @@
-package com.blaise2s.eventful.resources;
-
-import com.blaise2s.eventful.api.Trial;
+package com.blaise2s.eventful.jumpstart;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
