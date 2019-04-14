@@ -10,6 +10,7 @@ group 'eventful'
 version '1.0.0'
 
 sourceCompatibility = 1.8
+targetCompatibility = 1.8
 mainClassName = 'com.blaise2s.eventful.Eventful'
 
 runShadow {

@@ -14,5 +14,6 @@ build/
 .DS_Store
 
 ## Sensitive Information ##
+tokens/
 credentials.json
 StoredCredential
