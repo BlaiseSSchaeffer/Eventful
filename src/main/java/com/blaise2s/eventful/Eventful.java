@@ -1,6 +1,6 @@
 package com.blaise2s.eventful;
 
-import com.blaise2s.eventful.resources.TrialResource;
+import com.blaise2s.eventful.jumpstart.TrialResource;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;

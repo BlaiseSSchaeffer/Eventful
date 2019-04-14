@@ -12,3 +12,7 @@ build/
 
 ### OSX ###
 .DS_Store
+
+## Sensitive Information ##
+credentials.json
+StoredCredential

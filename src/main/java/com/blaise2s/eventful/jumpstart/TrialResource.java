@@ -1,6 +1,6 @@
-package com.blaise2s.eventful.resources;
+package com.blaise2s.eventful.jumpstart;
 
-import com.blaise2s.eventful.api.Trial;
+import com.codahale.metrics.annotation.Timed;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
@@ -26,6 +26,7 @@ public class TrialResource {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
+    @Timed
     public Response getTrial() {
         return Response.ok(TRIALS).build();
     }
@@ -33,6 +34,7 @@ public class TrialResource {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
+    @Timed
     public Response createTrial(Trial trial) {
         TRIALS.add(trial);
         return Response.ok(TRIALS).build();
